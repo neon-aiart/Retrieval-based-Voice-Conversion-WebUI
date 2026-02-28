@@ -71,4 +71,9 @@ with gr.Blocks() as app:
     btn_sts.click(fn=infer_loaded_voice, inputs=[], outputs=[gr.Textbox()], api_name="infer_loaded_voice")
 
 # 起動
-app.queue().launch(share=True, server_name="0.0.0.0")
+app.queue().launch(
+    share=False, 
+    server_name="127.0.0.1", 
+    server_port=7860,
+    quiet=True # 余計なログを出さない
+)
