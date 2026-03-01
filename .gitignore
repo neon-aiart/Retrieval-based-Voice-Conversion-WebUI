@@ -7,6 +7,8 @@ __pycache__
 tools/aria2c/
 tools/flag.txt
 
+.history
+
 # Imported from huggingface.co/lj1995/VoiceConversionWebUI
 /pretrained
 /pretrained_v2
