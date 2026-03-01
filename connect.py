@@ -8,8 +8,8 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 # 2. 環境変数の設定 (.env の代わり)
-os.environ["weight_root"] = "/content/drive/MyDrive/RVC_Models/weights"
-os.environ["index_root"] = "/content/drive/MyDrive/RVC_Models/logs"
+os.environ["weight_root"] = "/content/drive/MyDrive/RVC/weights"
+os.environ["index_root"] = "/content/drive/MyDrive/RVC/logs"
 os.environ["rmvpe_root"] = "assets/rmvpe"
 
 # パスを通す
