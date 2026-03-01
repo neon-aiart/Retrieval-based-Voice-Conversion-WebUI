@@ -6,4 +6,3 @@ pyworld
 librosa
 numpy
 scipy
-python-dotenv
