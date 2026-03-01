@@ -1,0 +1,9 @@
+torch
+gradio
+fairseq
+faiss-cpu
+pyworld
+librosa
+numpy
+scipy
+python-dotenv
